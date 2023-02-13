@@ -9,12 +9,12 @@ exports.config = {
   exclude: [],
 
   capabilities: [{
-    project: "First Webdriverio Android Project",
+    project: "second Webdriverio Android Project",
     build: 'Webdriverio Android',
-    name: 'first_test',
-    device: 'Google Pixel 3',
-    os_version: "9.0",
-    app: process.env.BROWSERSTACK_APP_ID || 'bs://9770eb830d889c344cc2537d8d3f6b6c67e2ca4a',
+    name: 'second_test',
+    device: 'Xiaomi Redmi Note 9',
+    os_version: "10.0",
+    app: process.env.BROWSERSTACK_APP_ID || "bs://9770eb830d889c344cc2537d8d3f6b6c67e2ca4a",
     'browserstack.debug': true
   }],
 
